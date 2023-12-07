@@ -8,11 +8,8 @@ def happy_new_year():
     print("Happy New Year!")
 
 def square_integers(int_list):
-    listLength = len(int_list)
-    i=0
-    for i in range(listLength):
-        int_list[i] *=int_list[i]
-    return (int_list)
+    new_array=[area *area for area in int_list]
+    return new_array
 
 def fizzbuzz():
     num = 1
